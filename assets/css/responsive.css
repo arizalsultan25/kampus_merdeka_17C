@@ -5,7 +5,7 @@
     }
 }
 
-/* ukuran mobile */
+/* ukuran tablet */
 @media screen and (max-width: 800px){
 
     .menu-toggle {
@@ -38,7 +38,20 @@
         transform: translateX(0);
     }
 
+    /* Introduction 100% at tab & phone */
     .introduction-content {
+        width: 100%;
+    }
+
+    /* Destination 50% when tab */
+    .destinasi-item {
+        width: 50%;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 670px){
+    .destinasi-item {
         width: 100%;
     }
 }

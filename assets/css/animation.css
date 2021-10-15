@@ -41,3 +41,8 @@ nav ul li a:hover {
     border-radius: 5%;
     object-fit: fill;
 }
+
+/* Hover Destination image */
+.item-image:hover .item-title {
+    opacity: 1;
+}
