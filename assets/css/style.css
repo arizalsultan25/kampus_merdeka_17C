@@ -133,3 +133,39 @@ nav ul li a {
     border-radius: 4px;
 }
 
+/* Introduction */
+.introduction {
+    width: 80%;
+    margin: 60px auto 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introduction-image {
+    flex: flex;
+    width: 45%;
+    padding: 15px;
+}
+
+.introduction-content {
+    flex: flex;
+    width: 55%;
+    padding: 15px;
+}
+
+.introduction-content > h2 {
+    margin-bottom: 15px;
+}
+
+.introduction-content > p {
+    text-align: justify;
+    line-height: 25px;
+    color: #4D5768;
+}
+
+.introduction-img {
+    box-shadow: 10px 10px 15px #9e9e9e;
+    transition: 0.5s;
+    width: 100%;
+    object-fit: cover;
+}
